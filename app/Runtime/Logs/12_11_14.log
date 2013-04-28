@@ -1,0 +1,177 @@
+[ 2012-11-14T23:44:23+08:00 ] 127.0.0.1 /thinkphp/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002146s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002426s ]
+
+[ 2012-11-14T23:49:15+08:00 ] 127.0.0.1 /thinkphp/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002443s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.015549s ]
+INFO: [ view_template ] --END-- [ RunTime:0.042555s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: name D:\APMServ5.2.6\www\htdocs\thinkphp\app\Runtime\Cache\3f6448edb80585dfae75998878cf29ba.php 第 3 行.
+NOTIC: [8] Undefined variable: name D:\APMServ5.2.6\www\htdocs\thinkphp\app\Runtime\Cache\3f6448edb80585dfae75998878cf29ba.php 第 6 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.058243s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.105993s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.164244s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.165183s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.166012s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.166768s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003520s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.167903s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000907s ]
+
+[ 2012-11-14T23:49:40+08:00 ] 127.0.0.1 /thinkphp/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000928s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.017041s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001615s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.018713s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016423s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.035210s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.036147s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.036977s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.037728s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003433s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.038749s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000884s ]
+
+[ 2012-11-14T23:50:00+08:00 ] 127.0.0.1 /thinkphp/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000924s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001189s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.037835s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001698s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: name D:\APMServ5.2.6\www\htdocs\thinkphp\app\Runtime\Cache\3f6448edb80585dfae75998878cf29ba.php 第 3 行.
+NOTIC: [8] Undefined variable: name D:\APMServ5.2.6\www\htdocs\thinkphp\app\Runtime\Cache\3f6448edb80585dfae75998878cf29ba.php 第 6 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.039703s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041307s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.081161s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.084005s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.084985s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.085743s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005835s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.087277s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001148s ]
+
+[ 2012-11-14T23:50:09+08:00 ] 127.0.0.1 /thinkphp/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000960s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001234s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.023269s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001370s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: name D:\APMServ5.2.6\www\htdocs\thinkphp\app\Runtime\Cache\3f6448edb80585dfae75998878cf29ba.php 第 3 行.
+NOTIC: [8] Undefined variable: name D:\APMServ5.2.6\www\htdocs\thinkphp\app\Runtime\Cache\3f6448edb80585dfae75998878cf29ba.php 第 6 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.024782s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041551s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.066493s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.067574s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.068588s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.069388s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004108s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.070862s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001010s ]
+
+[ 2012-11-14T23:50:11+08:00 ] 127.0.0.1 /thinkphp/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000930s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001194s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.003329s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001253s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: name D:\APMServ5.2.6\www\htdocs\thinkphp\app\Runtime\Cache\3f6448edb80585dfae75998878cf29ba.php 第 3 行.
+NOTIC: [8] Undefined variable: name D:\APMServ5.2.6\www\htdocs\thinkphp\app\Runtime\Cache\3f6448edb80585dfae75998878cf29ba.php 第 6 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.004790s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039128s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.044077s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.045157s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.046087s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.046918s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004050s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.048601s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001160s ]
+
+[ 2012-11-14T23:50:20+08:00 ] 127.0.0.1 /thinkphp/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001217s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001515s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.083499s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001445s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.085095s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042939s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.128202s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.129283s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.130195s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.131027s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004033s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.132495s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001013s ]
+
+[ 2012-11-14T23:50:27+08:00 ] 127.0.0.1 /thinkphp/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000982s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001254s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.016394s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001378s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: name D:\APMServ5.2.6\www\htdocs\thinkphp\app\Runtime\Cache\3f6448edb80585dfae75998878cf29ba.php 第 3 行.
+NOTIC: [8] Undefined variable: name D:\APMServ5.2.6\www\htdocs\thinkphp\app\Runtime\Cache\3f6448edb80585dfae75998878cf29ba.php 第 6 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.017924s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040023s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.058105s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.059170s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.060093s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.060919s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004024s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.062393s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001010s ]
+
+[ 2012-11-14T23:50:31+08:00 ] 127.0.0.1 /thinkphp/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000970s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001242s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.020362s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001360s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.021861s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027930s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.049962s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.051041s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.051980s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.052815s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004070s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.054294s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001012s ]
+
+[ 2012-11-14T23:57:13+08:00 ] ERR: (ThinkException) 无法加载数据库驱动: DbMsyql
+[ 2012-11-14T23:58:23+08:00 ] ERR: (ThinkException) 无法加载数据库驱动: DbMsyql

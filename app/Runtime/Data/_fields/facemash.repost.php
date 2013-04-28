@@ -1,0 +1,1 @@
+{"0":"id","1":"ip","2":"addTime","_autoinc":true,"_pk":"id","_type":{"id":"int(11)","ip":"varchar(256)","addTime":"int(11)"}}

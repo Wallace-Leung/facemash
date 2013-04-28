@@ -1,0 +1,416 @@
+[ 2012-12-04T22:53:15+08:00 ] 127.0.0.1 /facemash/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.035620s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.035766s ]
+
+[ 2012-12-04T22:54:39+08:00 ] ERR: (ThinkException) 无法加载模块:Index
+[ 2012-12-04T22:54:47+08:00 ] ERR: (ThinkException) 无法加载模块:Index
+[ 2012-12-04T22:54:55+08:00 ] 127.0.0.1 /facemash/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.123276s ]
+INFO: [ route_check ] --END-- [ RunTime:0.123412s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001082s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000595s ]
+
+[ 2012-12-04T22:54:59+08:00 ] ERR: (ThinkException) 无法加载模块:Index
+[ 2012-12-04T22:55:30+08:00 ] ERR: (ThinkException) 无法加载模块:Index
+[ 2012-12-04T22:55:42+08:00 ] ERR: (ThinkException) 无法加载模块:Index
+[ 2012-12-04T22:55:44+08:00 ] ERR: (ThinkException) 无法加载模块:Index
+[ 2012-12-04T22:55:45+08:00 ] ERR: (ThinkException) 无法加载模块:Index
+[ 2012-12-04T22:56:25+08:00 ] 127.0.0.1 /facemash/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000493s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000747s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000462s ]
+
+[ 2012-12-04T22:57:03+08:00 ] 127.0.0.1 /facemash/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002700s ]
+
+[ 2012-12-04T22:57:06+08:00 ] 127.0.0.1 /facemash/Index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001827s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002107s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001092s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001134s ]
+
+[ 2012-12-04T22:57:14+08:00 ] 127.0.0.1 /facemash/Index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000905s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001188s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001105s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003682s ]
+
+[ 2012-12-04T22:57:18+08:00 ] 127.0.0.1 /facemash/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000969s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001241s ]
+
+[ 2012-12-04T22:57:20+08:00 ] 127.0.0.1 /facemash/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000488s ]
+
+[ 2012-12-04T22:57:28+08:00 ] 127.0.0.1 /facemash/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001161s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001434s ]
+
+[ 2012-12-04T22:57:30+08:00 ] 127.0.0.1 /facemash/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000885s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001140s ]
+
+[ 2012-12-04T22:57:42+08:00 ] 127.0.0.1 /facemash/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000856s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001110s ]
+
+[ 2012-12-04T22:57:44+08:00 ] 127.0.0.1 /facemash/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001220s ]
+
+[ 2012-12-04T22:57:51+08:00 ] 127.0.0.1 /facemash/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001848s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002252s ]
+
+[ 2012-12-04T22:58:56+08:00 ] 127.0.0.1 /facemash/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000460s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.067431s ]
+SQL: SELECT * FROM `list`  [ RunTime:0.012221s ]
+
+[ 2012-12-04T23:11:15+08:00 ] ERR: (ThinkException) 无法加载模块:Index
+[ 2012-12-04T23:11:20+08:00 ] ERR: (ThinkException) 无法加载模块:Index
+[ 2012-12-04T23:11:22+08:00 ] ERR: (ThinkException) 无法加载模块:Index
+[ 2012-12-04T23:11:53+08:00 ] ERR: (ThinkException) Table 'facemash.index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `index`
+[ 2012-12-04T23:12:22+08:00 ] ERR: (ThinkException) Action:getPK您所请求的方法不存在！
+[ 2012-12-04T23:12:47+08:00 ] 127.0.0.1 /facemash/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003809s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004089s ]
+
+[ 2012-12-04T23:12:51+08:00 ] 127.0.0.1 /facemash/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001158s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001274s ]
+
+[ 2012-12-04T23:17:25+08:00 ] 127.0.0.1 /facemash/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002762s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003025s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.006018s ]
+
+[ 2012-12-04T23:18:00+08:00 ] 127.0.0.1 /facemash/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001144s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001255s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.002416s ]
+SQL: SELECT * FROM list WHERE id >= ((SELECT MAX(id) FROM list)-(SELECT MIN(id) FROM list)) * RAND() + (SELECT MIN(id) FROM list)  LIMIT 2 [ RunTime:0.001731s ]
+
+[ 2012-12-04T23:18:03+08:00 ] 127.0.0.1 /facemash/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003962s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004254s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.006181s ]
+SQL: SELECT * FROM list WHERE id >= ((SELECT MAX(id) FROM list)-(SELECT MIN(id) FROM list)) * RAND() + (SELECT MIN(id) FROM list)  LIMIT 2 [ RunTime:0.003550s ]
+
+[ 2012-12-04T23:19:53+08:00 ] ERR: (ThinkException) Incorrect table name ''
+ [ SQL语句 ] : SELECT * FROM `` 
+[ 2012-12-04T23:20:17+08:00 ] 127.0.0.1 /facemash/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002879s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003146s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.005741s ]
+SQL: SELECT * FROM list WHERE id >= ((SELECT MAX(id) FROM list)-(SELECT MIN(id) FROM list)) * RAND() + (SELECT MIN(id) FROM list)  LIMIT 2 [ RunTime:0.005061s ]
+NOTIC: [8] Undefined variable: data D:\APMServ5.2.6\www\htdocs\facemash\app\Lib\Model\ListModel.class.php 第 12 行.
+
+[ 2012-12-04T23:20:29+08:00 ] 127.0.0.1 /facemash/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003003s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003291s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.006396s ]
+SQL: SELECT * FROM list WHERE id >= ((SELECT MAX(id) FROM list)-(SELECT MIN(id) FROM list)) * RAND() + (SELECT MIN(id) FROM list)  LIMIT 2 [ RunTime:0.006349s ]
+
+[ 2012-12-04T23:21:31+08:00 ] ERR: (ThinkException) Table 'facemash.test' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `test`
+[ 2012-12-04T23:21:53+08:00 ] ERR: (ThinkException) Table 'facemash.test' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `test`
+[ 2012-12-04T23:21:55+08:00 ] ERR: (ThinkException) Table 'facemash.test' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `test`
+[ 2012-12-04T23:22:05+08:00 ] 127.0.0.1 /facemash/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002966s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003248s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.006914s ]
+
+[ 2012-12-04T23:22:24+08:00 ] 127.0.0.1 /facemash/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003892s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.006248s ]
+
+[ 2012-12-04T23:22:27+08:00 ] 127.0.0.1 /facemash/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003085s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003520s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.005941s ]
+
+[ 2012-12-04T23:23:00+08:00 ] 127.0.0.1 /facemash/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001674s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.002448s ]
+
+[ 2012-12-04T23:23:02+08:00 ] 127.0.0.1 /facemash/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.006168s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006639s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.006120s ]
+
+[ 2012-12-04T23:23:13+08:00 ] 127.0.0.1 /facemash/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.004008s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005020s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.002535s ]
+
+[ 2012-12-04T23:23:26+08:00 ] 127.0.0.1 /facemash/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001512s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.002426s ]
+SQL: SELECT * FROM list WHERE id >= ((SELECT MAX(id) FROM list)-(SELECT MIN(id) FROM list)) * RAND() + (SELECT MIN(id) FROM list)  LIMIT 2 [ RunTime:0.001544s ]
+
+[ 2012-12-04T23:23:43+08:00 ] ERR: (ThinkException) Incorrect table name ''
+ [ SQL语句 ] : SELECT * FROM `` 
+[ 2012-12-04T23:28:19+08:00 ] 127.0.0.1 /facemash/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003734s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.007960s ]
+SQL: SELECT * FROM list WHERE id >= ((SELECT MAX(id) FROM list)-(SELECT MIN(id) FROM list)) * RAND() + (SELECT MIN(id) FROM list)  LIMIT 2 [ RunTime:0.004981s ]
+
+[ 2012-12-04T23:28:21+08:00 ] 127.0.0.1 /facemash/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001606s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.002244s ]
+SQL: SELECT * FROM list WHERE id >= ((SELECT MAX(id) FROM list)-(SELECT MIN(id) FROM list)) * RAND() + (SELECT MIN(id) FROM list)  LIMIT 2 [ RunTime:0.001635s ]
+
+[ 2012-12-04T23:29:09+08:00 ] 127.0.0.1 /facemash/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002831s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003099s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.006233s ]
+SQL: SELECT * FROM list WHERE id >= ((SELECT MAX(id) FROM list)-(SELECT MIN(id) FROM list)) * RAND() + (SELECT MIN(id) FROM list)  LIMIT 2 [ RunTime:0.005977s ]
+
+[ 2012-12-04T23:30:11+08:00 ] ERR: (ThinkException) Table 'facemash.p_k' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `p_k`
+[ 2012-12-04T23:32:31+08:00 ] ERR: (ThinkException) Table 'facemash.p_k' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `p_k`
+[ 2012-12-04T23:33:06+08:00 ] 127.0.0.1 /facemash/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001170s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001285s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.002523s ]
+SQL: SELECT * FROM list WHERE id >= ((SELECT MAX(id) FROM list)-(SELECT MIN(id) FROM list)) * RAND() + (SELECT MIN(id) FROM list)  LIMIT 2 [ RunTime:0.001443s ]
+
+[ 2012-12-04T23:34:40+08:00 ] ERR: (ThinkException) 无法加载模块:vote
+[ 2012-12-04T23:34:50+08:00 ] ERR: (ThinkException) 非法操作:1
+[ 2012-12-04T23:35:01+08:00 ] ERR: (ThinkException) 无法加载模块:vote
+[ 2012-12-04T23:35:35+08:00 ] 127.0.0.1 /facemash/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001106s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001222s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001258s ]
+
+[ 2012-12-04T23:35:48+08:00 ] ERR: (ThinkException) 无法加载模块:ontest
+[ 2012-12-04T23:36:05+08:00 ] 127.0.0.1 /facemash/Index/index/ontest
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003532s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003837s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001971s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004930s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.005925s ]
+SQL: SELECT * FROM list WHERE id >= ((SELECT MAX(id) FROM list)-(SELECT MIN(id) FROM list)) * RAND() + (SELECT MIN(id) FROM list)  LIMIT 2 [ RunTime:0.003276s ]
+
+[ 2012-12-04T23:36:15+08:00 ] 127.0.0.1 /facemash/Index/ontest
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002965s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003264s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.005407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005488s ]
+
+[ 2012-12-04T23:36:24+08:00 ] 127.0.0.1 /facemash/Index/vote
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.005450s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005759s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003380s ]
+
+[ 2012-12-04T23:36:28+08:00 ] ERR: (ThinkException) 非法操作:1
+[ 2012-12-04T23:36:37+08:00 ] 127.0.0.1 /facemash/Index/vote/a
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.005854s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006154s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002760s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003313s ]
+
+[ 2012-12-04T23:36:54+08:00 ] ERR: (ThinkException) 无法加载模块:ontest
+[ 2012-12-04T23:36:56+08:00 ] 127.0.0.1 /facemash/Index/vote/a
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001581s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001707s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000802s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002490s ]
+
+[ 2012-12-04T23:36:58+08:00 ] 127.0.0.1 /facemash/Index/vote/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004419s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004733s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001991s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003530s ]
+
+[ 2012-12-04T23:37:02+08:00 ] 127.0.0.1 /facemash/Index/vote/a=1
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.005350s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005654s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004488s ]
+
+[ 2012-12-04T23:37:08+08:00 ] ERR: (ThinkException) 非法操作:1
+[ 2012-12-04T23:37:12+08:00 ] 127.0.0.1 /facemash/Index/vote/a
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004245s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004569s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003135s ]
+
+[ 2012-12-04T23:37:17+08:00 ] 127.0.0.1 /facemash/Index/vote/1
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003107s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003405s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002135s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003351s ]
+
+[ 2012-12-04T23:38:25+08:00 ] ERR: (ThinkException) 参数错误或者未定义:id
+[ 2012-12-04T23:38:39+08:00 ] ERR: (ThinkException) 非法操作:1
+[ 2012-12-04T23:38:49+08:00 ] ERR: (ThinkException) 非法操作:1
+[ 2012-12-04T23:39:11+08:00 ] 127.0.0.1 /facemash/Index/vote
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002871s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003147s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001935s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003482s ]
+
+[ 2012-12-04T23:40:06+08:00 ] 127.0.0.1 /facemash/Index/vote/id
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003169s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003461s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003966s ]
+
+[ 2012-12-04T23:40:27+08:00 ] 127.0.0.1 /facemash/Index/vote/id/1
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003502s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003808s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004752s ]
+
+[ 2012-12-04T23:40:38+08:00 ] ERR: (ThinkException) 非法操作:1
+[ 2012-12-04T23:40:43+08:00 ] 127.0.0.1 /facemash/Index/vote/aid/1
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.005239s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005535s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004544s ]
+
+[ 2012-12-04T23:41:02+08:00 ] 127.0.0.1 /facemash/Index/vote/aid/1
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003427s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003719s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004072s ]
+
+[ 2012-12-04T23:41:07+08:00 ] 127.0.0.1 /facemash/Index/vote/aid/1/bid/2
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003187s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003465s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003836s ]
+
+[ 2012-12-04T23:57:43+08:00 ] 127.0.0.1 /facemash/Index/vote
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003199s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003487s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001939s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004377s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.006279s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.009460s ]
+SQL: SELECT * FROM `list` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.003641s ]
+SQL: SELECT * FROM `list` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.000445s ]
+
+[ 2012-12-04T23:58:40+08:00 ] 127.0.0.1 /facemash/Index/vote/aid/1/bid/2
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001769s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002037s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002033s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.010480s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.008469s ]
+SQL: SELECT * FROM `list` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.006817s ]
+SQL: SELECT * FROM `list` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.000224s ]
+
+[ 2012-12-04T23:59:47+08:00 ] 127.0.0.1 /facemash/Index/vote/aid/1/bid/2
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001562s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001859s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001979s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001102s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.006041s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.016902s ]
+SQL: SELECT * FROM `list` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.003702s ]
+SQL: SELECT * FROM `list` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.000696s ]
+
+[ 2012-12-04T23:59:54+08:00 ] 127.0.0.1 /facemash/Index/vote/aid/1/bid/2
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001446s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001651s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000867s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001213s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.003046s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.004860s ]
+SQL: SELECT * FROM `list` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.004487s ]
+SQL: SELECT * FROM `list` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.000394s ]
+

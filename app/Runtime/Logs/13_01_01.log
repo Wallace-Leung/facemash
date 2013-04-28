@@ -1,0 +1,22 @@
+[ 2013-01-01T14:41:53+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.155730s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.155872s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.002674s ]
+SQL: select * from list where id in(680,549) and isShow=1 [ RunTime:0.024724s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.473951s ]
+INFO: [ view_template ] --END-- [ RunTime:0.096291s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.570334s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.682619s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.253034s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.310769s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.330882s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.395363s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.244277s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.497456s ]
+INFO: [ view_end ] --END-- [ RunTime:0.036563s ]
+

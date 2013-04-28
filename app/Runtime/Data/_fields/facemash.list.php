@@ -1,0 +1,1 @@
+{"0":"id","1":"name","2":"image","3":"score","4":"gender","5":"times","6":"lockKey","7":"isShow","_autoinc":true,"_pk":"id","_type":{"id":"int(11)","name":"varchar(128)","image":"varchar(128)","score":"int(11)","gender":"enum('M','F')","times":"int(11)","lockKey":"varchar(32)","isShow":"tinyint(1)"}}

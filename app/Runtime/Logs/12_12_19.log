@@ -1,0 +1,899 @@
+[ 2012-12-19T11:24:26+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.011591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011715s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.091963s ]
+SQL: select * from list where id in(405,377) and isShow=1 [ RunTime:0.009874s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.237954s ]
+INFO: [ view_template ] --END-- [ RunTime:0.029614s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.267657s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.121680s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.389403s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.426917s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.430505s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.442593s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.066532s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.456057s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003209s ]
+
+[ 2012-12-19T11:24:26+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2012-12-19T11:36:57+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000692s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000800s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.002476s ]
+SQL: select * from list where id in(813,105) and isShow=1 [ RunTime:0.126405s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.136494s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001995s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.138570s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022504s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.161155s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.162022s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.162749s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.163383s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003048s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.164335s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000776s ]
+
+[ 2012-12-19T11:36:57+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2012-12-19T11:37:10+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000458s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.002428s ]
+SQL: select * from list where id in(368,189) and isShow=1 [ RunTime:0.001475s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.009440s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000593s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.010102s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013838s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.024024s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.024516s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.024903s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.025208s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001658s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.025827s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000521s ]
+
+[ 2012-12-19T11:37:10+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2012-12-19T11:37:32+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000497s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.002339s ]
+SQL: select * from list where id in(463,861) and isShow=1 [ RunTime:0.087844s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.097470s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001379s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.098924s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031512s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.130520s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.131379s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.132110s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.132755s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003041s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.133690s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000761s ]
+
+[ 2012-12-19T11:37:32+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2012-12-19T11:37:44+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000460s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.002414s ]
+SQL: select * from list where id in(274,262) and isShow=1 [ RunTime:0.001717s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.009944s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000544s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.010565s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013631s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.024276s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.024759s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.025142s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.025442s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001628s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.026035s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000417s ]
+
+[ 2012-12-19T11:37:44+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2012-12-19T11:38:46+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000474s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.002374s ]
+SQL: select * from list where id in(428,81) and isShow=1 [ RunTime:0.001447s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.012273s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001706s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.014071s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034627s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.048774s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.050080s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.051150s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.052126s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004481s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.053390s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001091s ]
+
+[ 2012-12-19T11:38:46+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2012-12-19T11:39:04+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000466s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.002371s ]
+SQL: select * from list where id in(178,290) and isShow=1 [ RunTime:0.001539s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.012391s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001459s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.013921s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021545s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.035551s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.036826s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.037896s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.038874s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004557s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.040250s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001096s ]
+
+[ 2012-12-19T11:39:04+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2012-12-19T11:39:21+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000807s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.002566s ]
+SQL: select * from list where id in(454,777) and isShow=1 [ RunTime:0.001440s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.009294s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000567s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.009935s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022859s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.032880s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.033389s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.033778s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.034082s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001672s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.034681s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000421s ]
+
+[ 2012-12-19T11:39:21+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2012-12-19T11:39:51+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2012-12-19T11:40:16+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000464s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.002396s ]
+SQL: select * from list where id in(687,505) and isShow=1 [ RunTime:0.054477s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.064069s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001409s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.065549s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016876s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.082542s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.083586s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.084345s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.084975s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003258s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.085885s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000742s ]
+
+[ 2012-12-19T11:40:16+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2012-12-19T11:40:36+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000480s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.002597s ]
+SQL: select * from list where id in(208,725) and isShow=1 [ RunTime:0.001491s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.009533s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000617s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.010211s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023319s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.033614s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.034113s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.034481s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.034766s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001602s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.035324s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000393s ]
+
+[ 2012-12-19T11:40:36+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2012-12-19T11:40:42+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2012-12-19T11:40:42+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000460s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.002584s ]
+SQL: select * from list where id in(720,803) and isShow=1 [ RunTime:0.001673s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.011738s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001276s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.013085s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031378s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.044551s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.045411s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.046130s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.046759s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003002s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.047661s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000730s ]
+
+[ 2012-12-19T11:41:48+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000467s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.002436s ]
+SQL: select * from list where id in(513,758) and isShow=1 [ RunTime:0.001618s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.009399s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000530s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.009996s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013721s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.023800s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.024302s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.024674s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.024960s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001613s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.025521s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000391s ]
+
+[ 2012-12-19T11:41:49+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2012-12-19T11:43:01+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000505s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.002343s ]
+SQL: select * from list where id in(632,693) and isShow=1 [ RunTime:0.001554s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.011398s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001318s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.012795s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028933s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.041818s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.042679s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.043415s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.044062s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003058s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.045006s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000764s ]
+
+[ 2012-12-19T11:43:01+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2012-12-19T11:43:36+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000476s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.002384s ]
+SQL: select * from list where id in(9,716) and isShow=1 [ RunTime:0.001810s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.011356s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001322s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.012750s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016462s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.029298s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.030146s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.030875s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.031517s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003082s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.032514s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000768s ]
+
+[ 2012-12-19T11:43:36+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2012-12-19T11:43:37+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000470s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.002355s ]
+SQL: select * from list where id in(698,659) and isShow=1 [ RunTime:0.001612s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.009112s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000509s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.009691s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008973s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.018755s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.019216s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.019598s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.019916s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001642s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.020518s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000497s ]
+
+[ 2012-12-19T11:43:38+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2012-12-19T11:43:40+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000468s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.002530s ]
+SQL: select * from list where id in(99,552) and isShow=1 [ RunTime:0.001632s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.012397s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001588s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.014055s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023035s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.037209s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.038411s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.039471s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.040532s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004516s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.041836s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001095s ]
+
+[ 2012-12-19T11:43:40+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2012-12-19T11:43:41+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000465s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.002625s ]
+SQL: select * from list where id in(733,864) and isShow=1 [ RunTime:0.001522s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.011629s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001403s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.013103s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062681s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.075875s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.077099s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.078224s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.079410s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004708s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.080719s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001103s ]
+
+[ 2012-12-19T11:43:41+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2012-12-19T11:43:42+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000465s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.002339s ]
+SQL: select * from list where id in(108,755) and isShow=1 [ RunTime:0.001539s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.010943s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001259s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.012273s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015991s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.028350s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.029204s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.029939s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.030584s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003161s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.031659s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000806s ]
+
+[ 2012-12-19T11:43:42+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2012-12-19T11:43:44+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000463s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.002370s ]
+SQL: select * from list where id in(202,278) and isShow=1 [ RunTime:0.001489s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.008918s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000511s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.009499s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019268s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.028854s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.029350s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.029735s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.030030s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001640s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.030626s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000419s ]
+
+[ 2012-12-19T11:43:44+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2012-12-19T11:43:45+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000461s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.002528s ]
+SQL: select * from list where id in(252,61) and isShow=1 [ RunTime:0.001747s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.009290s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000516s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.009876s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009076s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.019034s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.019490s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.019868s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.020164s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001597s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.020762s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000419s ]
+
+[ 2012-12-19T11:43:45+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2012-12-19T11:43:47+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000505s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.002477s ]
+SQL: select * from list where id in(790,836) and isShow=1 [ RunTime:0.001593s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.011395s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001340s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.012807s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016110s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.028999s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.029865s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.030609s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.031254s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003060s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.032191s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000767s ]
+
+[ 2012-12-19T11:43:47+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2012-12-19T11:43:48+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000475s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.002500s ]
+SQL: select * from list where id in(212,495) and isShow=1 [ RunTime:0.001445s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.009122s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000555s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.009752s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017776s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.027613s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.028116s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.028503s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.028834s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001717s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.029461s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000422s ]
+
+[ 2012-12-19T11:43:48+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2012-12-19T11:43:50+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000492s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.002431s ]
+SQL: select * from list where id in(446,134) and isShow=1 [ RunTime:0.001484s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.009064s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000522s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.009657s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014162s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.023905s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.024395s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.024783s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.025084s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001644s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.025687s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000419s ]
+
+[ 2012-12-19T11:43:50+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2012-12-19T11:43:51+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000538s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.002326s ]
+SQL: select * from list where id in(550,170) and isShow=1 [ RunTime:0.001444s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.008962s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000520s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.009622s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009189s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.018889s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.019342s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.019722s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.020027s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001605s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.020624s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000493s ]
+
+[ 2012-12-19T11:43:51+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2012-12-19T11:43:52+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000462s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.002380s ]
+SQL: select * from list where id in(832,525) and isShow=1 [ RunTime:0.001451s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.010876s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001274s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.012230s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020381s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.032693s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.033558s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.034371s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.035014s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003128s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.035955s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000764s ]
+
+[ 2012-12-19T11:43:53+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2012-12-19T11:43:56+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000579s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.002346s ]
+SQL: select * from list where id in(803,860) and isShow=1 [ RunTime:0.001417s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.011757s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001404s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.013233s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017792s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.031109s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.032288s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.033356s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.034326s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004344s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.035588s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001245s ]
+
+[ 2012-12-19T11:43:56+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2012-12-19T11:43:57+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000466s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.002368s ]
+SQL: select * from list where id in(654,754) and isShow=1 [ RunTime:0.001783s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.009314s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000514s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.009898s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009126s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.019109s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.019561s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.020008s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.020358s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001816s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.021068s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000451s ]
+
+[ 2012-12-19T11:43:58+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2012-12-19T11:43:59+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000472s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.002327s ]
+SQL: select * from list where id in(88,221) and isShow=1 [ RunTime:0.001467s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.008847s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000570s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.009492s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018212s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.027793s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.028296s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.028684s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.028985s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001663s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.029584s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000423s ]
+
+[ 2012-12-19T11:43:59+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2012-12-19T11:44:03+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000488s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.002341s ]
+SQL: select * from list where id in(573,479) and isShow=1 [ RunTime:0.001539s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.011145s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001399s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.012615s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017735s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.030435s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.031619s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.032673s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.033649s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004410s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.034985s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001247s ]
+
+[ 2012-12-19T11:44:03+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2012-12-19T11:44:04+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000487s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.002363s ]
+SQL: select * from list where id in(723,642) and isShow=1 [ RunTime:0.001401s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.011446s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001468s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.012992s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021565s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.034642s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.035918s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.036996s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.037963s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004514s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.039295s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001088s ]
+
+[ 2012-12-19T11:44:04+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2012-12-19T11:44:05+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000470s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.002630s ]
+SQL: select * from list where id in(341,337) and isShow=1 [ RunTime:0.001654s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.012015s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001514s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.013606s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013338s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.027025s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.028153s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.029209s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.030173s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004287s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.031444s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001168s ]
+
+[ 2012-12-19T11:44:05+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2012-12-19T11:44:06+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000521s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.002377s ]
+SQL: select * from list where id in(524,773) and isShow=1 [ RunTime:0.001490s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.009015s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000522s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.009608s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013955s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.023649s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.024140s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.024543s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.024842s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001709s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.025501s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000467s ]
+
+[ 2012-12-19T11:44:07+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2012-12-19T11:44:08+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000471s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.002327s ]
+SQL: select * from list where id in(23,47) and isShow=1 [ RunTime:0.001781s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.009005s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000513s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.009587s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018240s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.027919s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.028426s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.028813s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.029113s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001699s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.029754s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000458s ]
+
+[ 2012-12-19T11:44:08+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2012-12-19T11:44:12+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000494s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.002471s ]
+SQL: select * from list where id in(227,431) and isShow=1 [ RunTime:0.001494s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.009240s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000521s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.009831s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014933s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.024852s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.025357s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.025746s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.026044s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001658s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.026640s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000417s ]
+
+[ 2012-12-19T11:44:12+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2012-12-19T11:44:13+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000460s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.002355s ]
+SQL: select * from list where id in(456,383) and isShow=1 [ RunTime:0.001497s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.008970s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000526s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.009570s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009267s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.018919s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.019381s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.019758s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.020091s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001689s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.020748s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000468s ]
+
+[ 2012-12-19T11:44:13+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2012-12-19T11:44:15+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000461s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.002354s ]
+SQL: select * from list where id in(277,876) and isShow=1 [ RunTime:0.001458s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.011456s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001410s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.012936s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021913s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.034938s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.036208s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.037269s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.038236s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004427s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.039497s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001084s ]
+
+[ 2012-12-19T11:44:15+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2012-12-19T11:44:17+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000484s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.002358s ]
+SQL: select * from list where id in(234,298) and isShow=1 [ RunTime:0.001482s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.011476s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001703s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.013262s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017551s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.030893s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.032081s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.033145s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.034111s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004351s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.035381s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001242s ]
+
+[ 2012-12-19T11:44:17+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2012-12-19T11:44:20+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000471s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.002432s ]
+SQL: select * from list where id in(333,305) and isShow=1 [ RunTime:0.001615s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.011636s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001423s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.013123s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021327s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.034535s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.035758s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.036913s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.037880s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004472s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.039142s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001084s ]
+
+[ 2012-12-19T11:44:20+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2012-12-19T11:47:51+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2012-12-19T11:52:26+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000800s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.002439s ]
+SQL: select * from list where id in(754,838) and isShow=1 [ RunTime:0.001482s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.011248s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001451s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.012779s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059074s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.071937s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.073028s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.073970s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.074655s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003538s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.075621s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000812s ]
+
+[ 2012-12-19T11:52:26+08:00 ] ERR: (ThinkException) 无法加载模块:favicon

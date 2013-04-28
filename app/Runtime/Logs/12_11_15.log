@@ -1,0 +1,1117 @@
+[ 2012-11-15T00:00:07+08:00 ] 127.0.0.1 /thinkphp/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000933s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001199s ]
+SQL: SHOW COLUMNS FROM `le_user` [ RunTime:0.005974s ]
+SQL: SELECT * FROM `le_user`  [ RunTime:0.130404s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.166772s ]
+INFO: [ view_template ] --END-- [ RunTime:0.004171s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: user D:\APMServ5.2.6\www\htdocs\thinkphp\app\Runtime\Cache\3f6448edb80585dfae75998878cf29ba.php 第 6 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.171130s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048878s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.220156s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.222403s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.224462s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.226590s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009885s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.230317s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002244s ]
+
+[ 2012-11-15T00:01:13+08:00 ] 127.0.0.1 /thinkphp/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002330s ]
+SQL: SHOW COLUMNS FROM `le_user` [ RunTime:0.005696s ]
+SQL: SELECT * FROM `le_user`  [ RunTime:0.003220s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.038803s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003733s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.042703s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.077722s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.120437s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.121436s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.122270s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.123026s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003523s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.124068s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000862s ]
+
+[ 2012-11-15T00:01:39+08:00 ] 127.0.0.1 /thinkphp/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002292s ]
+SQL: SHOW COLUMNS FROM `le_user` [ RunTime:0.005595s ]
+SQL: SELECT * FROM `le_user`  [ RunTime:0.003281s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.027818s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003675s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.031663s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042641s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.074465s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.076730s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.078789s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.080652s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009509s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.084238s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002112s ]
+
+[ 2012-11-15T00:02:54+08:00 ] 127.0.0.1 /thinkphp/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002918s ]
+SQL: SHOW COLUMNS FROM `le_user` [ RunTime:0.005970s ]
+SQL: SELECT * FROM `le_user` WHERE ( `userid` = 49 ) LIMIT 1   [ RunTime:0.002136s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.058832s ]
+INFO: [ view_template ] --END-- [ RunTime:0.005708s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Uninitialized string offset:  0 D:\APMServ5.2.6\www\htdocs\thinkphp\app\Runtime\Cache\3f6448edb80585dfae75998878cf29ba.php 第 6 行.
+NOTIC: [8] Uninitialized string offset:  0 D:\APMServ5.2.6\www\htdocs\thinkphp\app\Runtime\Cache\3f6448edb80585dfae75998878cf29ba.php 第 6 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.064741s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040177s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.104920s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.105840s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.106659s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.107719s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003802s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.108833s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000865s ]
+
+[ 2012-11-15T00:03:31+08:00 ] 127.0.0.1 /thinkphp/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002940s ]
+SQL: SHOW COLUMNS FROM `le_user` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `le_user` WHERE ( `userid` = 49 ) LIMIT 1   [ RunTime:0.002469s ]
+
+[ 2012-11-15T00:03:33+08:00 ] 127.0.0.1 /thinkphp/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000920s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001198s ]
+SQL: SHOW COLUMNS FROM `le_user` [ RunTime:0.005579s ]
+SQL: SELECT * FROM `le_user` WHERE ( `userid` = 49 ) LIMIT 1   [ RunTime:0.003291s ]
+
+[ 2012-11-15T00:04:19+08:00 ] 127.0.0.1 /thinkphp/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002618s ]
+SQL: SHOW COLUMNS FROM `le_user` [ RunTime:0.005884s ]
+SQL: SELECT * FROM `le_user` WHERE ( `userid` = 49 ) LIMIT 1   [ RunTime:0.002155s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.044975s ]
+INFO: [ view_template ] --END-- [ RunTime:0.004361s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  id D:\APMServ5.2.6\www\htdocs\thinkphp\app\Runtime\Cache\3f6448edb80585dfae75998878cf29ba.php 第 6 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.049524s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044377s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.093908s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.094840s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.095665s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.096420s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003419s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.097436s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000859s ]
+
+[ 2012-11-15T00:04:26+08:00 ] 127.0.0.1 /thinkphp/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000963s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001231s ]
+SQL: SHOW COLUMNS FROM `le_user` [ RunTime:0.005528s ]
+SQL: SELECT * FROM `le_user` WHERE ( `userid` = 49 ) LIMIT 1   [ RunTime:0.002979s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.020751s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001256s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.022183s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019640s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.041985s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.043036s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.043971s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.044723s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004045s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.046302s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001099s ]
+
+[ 2012-11-15T08:41:49+08:00 ] 127.0.0.1 /thinkphp/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.033436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.033742s ]
+SQL: SHOW COLUMNS FROM `le_user` [ RunTime:0.078437s ]
+SQL: SELECT * FROM `le_user` WHERE ( `userid` = 49 ) LIMIT 1   [ RunTime:0.023691s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.358217s ]
+INFO: [ view_template ] --END-- [ RunTime:0.009718s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Uninitialized string offset:  0 D:\APMServ5.2.6\www\htdocs\thinkphp\app\Runtime\Cache\3f6448edb80585dfae75998878cf29ba.php 第 6 行.
+NOTIC: [8] Uninitialized string offset:  0 D:\APMServ5.2.6\www\htdocs\thinkphp\app\Runtime\Cache\3f6448edb80585dfae75998878cf29ba.php 第 6 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.368139s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.153134s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.521423s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.539321s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.543647s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.549852s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.032911s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.554619s ]
+INFO: [ view_end ] --END-- [ RunTime:0.009670s ]
+
+[ 2012-11-15T23:24:06+08:00 ] ERR: (ThinkException) Table 'letutao.think_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_user`
+[ 2012-11-15T23:26:49+08:00 ] 127.0.0.1 /thinkphp/index.php/Form/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.191528s ]
+INFO: [ route_check ] --END-- [ RunTime:0.191876s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.003257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002764s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.063195s ]
+INFO: [ view_template ] --END-- [ RunTime:0.036519s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.099904s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.225810s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.325880s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.384652s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.389568s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.394124s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.073306s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.399461s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004479s ]
+
+[ 2012-11-15T23:29:12+08:00 ] 127.0.0.1 /thinkphp/Form/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003434s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003704s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002557s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.013239s ]
+INFO: [ view_template ] --END-- [ RunTime:0.004774s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.018175s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040438s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.058819s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.062770s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.066335s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.070057s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015098s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.074149s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003658s ]
+
+[ 2012-11-15T23:29:32+08:00 ] 127.0.0.1 /thinkphp/Form/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003664s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003943s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002089s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001960s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.014421s ]
+INFO: [ view_template ] --END-- [ RunTime:0.008070s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.019502s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045847s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.065514s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.070529s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.075880s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.083890s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.022462s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.088251s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003842s ]
+
+[ 2012-11-15T23:29:50+08:00 ] ERR: (ThinkException) 非法操作:_URL_
+[ 2012-11-15T23:31:42+08:00 ] ERR: (ThinkException) 非法操作:index
+[ 2012-11-15T23:31:46+08:00 ] 127.0.0.1 /thinkphp/Form/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003797s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004077s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001950s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.011748s ]
+INFO: [ view_template ] --END-- [ RunTime:0.004873s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.016780s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035859s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.052810s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.056645s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.060234s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.063647s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015606s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.068710s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003935s ]
+
+[ 2012-11-15T23:33:32+08:00 ] ERR: (ThinkException) Table 'letutao.think_form' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_form`
+[ 2012-11-15T23:33:40+08:00 ] ERR: (ThinkException) Table 'letutao.think_form' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_form`
+[ 2012-11-15T23:33:44+08:00 ] 127.0.0.1 /thinkphp/Form/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003647s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003935s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003046s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.014511s ]
+INFO: [ view_template ] --END-- [ RunTime:0.004644s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.019349s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036724s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.056238s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.060269s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.064213s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.067959s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015750s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.072285s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004301s ]
+
+[ 2012-11-15T23:33:47+08:00 ] ERR: (ThinkException) Table 'letutao.think_form' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_form`
+[ 2012-11-15T23:34:12+08:00 ] 127.0.0.1 /thinkphp/index.php/Form/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003470s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003742s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001966s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.011633s ]
+INFO: [ view_template ] --END-- [ RunTime:0.004640s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.016421s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040329s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.056916s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.060862s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.064769s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.068497s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015441s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.072664s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004206s ]
+
+[ 2012-11-15T23:34:17+08:00 ] 127.0.0.1 /thinkphp/index.php/Form/insert
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004617s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004908s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002117s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002065s ]
+SQL: SHOW COLUMNS FROM `think_form` [ RunTime:0.008919s ]
+SQL: INSERT INTO `think_form` (`title`,`content`) VALUES ('test','werwrwe') [ RunTime:0.003528s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.044685s ]
+INFO: [ view_template ] --END-- [ RunTime:0.006339s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.051220s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064097s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.115328s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.117182s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.119769s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.121348s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007602s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.123053s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001562s ]
+
+[ 2012-11-15T23:34:18+08:00 ] 127.0.0.1 /thinkphp/index.php/Form/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003963s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004469s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002210s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002157s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.011578s ]
+INFO: [ view_template ] --END-- [ RunTime:0.006254s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.017900s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035873s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.053934s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.057886s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.061528s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.066372s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.016233s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.070441s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003654s ]
+
+[ 2012-11-15T23:34:22+08:00 ] 127.0.0.1 /thinkphp/index.php/Form
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003773s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004049s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001717s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002192s ]
+SQL: SHOW COLUMNS FROM `think_form` [ RunTime:0.005741s ]
+SQL: SELECT * FROM `think_form`  [ RunTime:0.002878s ]
+
+[ 2012-11-15T23:34:47+08:00 ] 127.0.0.1 /thinkphp/index.php/Form
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003528s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003803s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001801s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002221s ]
+SQL: SHOW COLUMNS FROM `think_form` [ RunTime:0.006357s ]
+SQL: SELECT * FROM `think_form`  [ RunTime:0.004270s ]
+
+[ 2012-11-15T23:37:13+08:00 ] 127.0.0.1 /thinkphp/Form
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003508s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003778s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002191s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003727s ]
+SQL: SHOW COLUMNS FROM `think_form` [ RunTime:0.005940s ]
+SQL: SELECT * FROM `think_form`  [ RunTime:0.002992s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.054863s ]
+INFO: [ view_template ] --END-- [ RunTime:0.006833s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: form D:\APMServ5.2.6\www\htdocs\thinkphp\app\Runtime\Cache\9dbf6c63c28020b24dd673e8a61caa76.php 第 6 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.061729s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066342s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.128230s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.132473s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.136214s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.139970s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015500s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.144024s ]
+INFO: [ view_end ] --END-- [ RunTime:0.006649s ]
+
+[ 2012-11-15T23:38:01+08:00 ] 127.0.0.1 /thinkphp/Form
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003772s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004117s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003878s ]
+SQL: SHOW COLUMNS FROM `think_form` [ RunTime:0.006395s ]
+SQL: SELECT * FROM `think_form`  [ RunTime:0.004444s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.056578s ]
+INFO: [ view_template ] --END-- [ RunTime:0.006549s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.063320s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037288s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.100626s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.102197s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.103697s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.105994s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.109957s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003341s ]
+
+[ 2012-11-15T23:38:24+08:00 ] 127.0.0.1 /thinkphp/Form
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003558s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003976s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001872s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003767s ]
+SQL: SHOW COLUMNS FROM `think_form` [ RunTime:0.005657s ]
+SQL: SELECT * FROM `think_form`  [ RunTime:0.002781s ]
+
+[ 2012-11-15T23:38:26+08:00 ] 127.0.0.1 /thinkphp/Form
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003403s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003672s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003717s ]
+SQL: SHOW COLUMNS FROM `think_form` [ RunTime:0.007807s ]
+SQL: SELECT * FROM `think_form`  [ RunTime:0.015607s ]
+
+[ 2012-11-15T23:38:42+08:00 ] 127.0.0.1 /thinkphp/Form
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002212s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002478s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003949s ]
+SQL: SHOW COLUMNS FROM `think_form` [ RunTime:0.006747s ]
+SQL: SELECT * FROM `think_form`  [ RunTime:0.003824s ]
+
+[ 2012-11-15T23:38:44+08:00 ] 127.0.0.1 /thinkphp/Form
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001603s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001879s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003769s ]
+SQL: SHOW COLUMNS FROM `think_form` [ RunTime:0.005747s ]
+SQL: SELECT * FROM `think_form`  [ RunTime:0.002633s ]
+
+[ 2012-11-15T23:39:14+08:00 ] 127.0.0.1 /thinkphp/Form
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001722s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001993s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002277s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003727s ]
+SQL: SHOW COLUMNS FROM `think_form` [ RunTime:0.005335s ]
+SQL: SELECT * FROM `think_form`  [ RunTime:0.002736s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.106044s ]
+INFO: [ view_template ] --END-- [ RunTime:0.006998s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.113224s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040641s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.154025s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.158517s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.162202s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.165625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015691s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.170032s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003824s ]
+
+[ 2012-11-15T23:39:17+08:00 ] 127.0.0.1 /thinkphp/Form/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001639s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001914s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001681s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004137s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.012957s ]
+INFO: [ view_template ] --END-- [ RunTime:0.005589s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.018743s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036801s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.057588s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.061744s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.065263s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.069292s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.017884s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.073875s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004020s ]
+
+[ 2012-11-15T23:39:27+08:00 ] 127.0.0.1 /thinkphp/index.php/Form/insert
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002140s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002436s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004038s ]
+SQL: SHOW COLUMNS FROM `think_form` [ RunTime:0.006960s ]
+SQL: INSERT INTO `think_form` (`title`,`content`) VALUES ('werewr','uytuyjmnyuk') [ RunTime:0.003763s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.045682s ]
+INFO: [ view_template ] --END-- [ RunTime:0.007135s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.053004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044413s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.097583s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.101335s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.106001s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.107537s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012471s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.110116s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001574s ]
+
+[ 2012-11-15T23:39:28+08:00 ] 127.0.0.1 /thinkphp/Form/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001756s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002028s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004231s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.012582s ]
+INFO: [ view_template ] --END-- [ RunTime:0.005391s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.018168s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034632s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.052975s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.057674s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.061437s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.064771s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015968s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.069218s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003798s ]
+
+[ 2012-11-15T23:39:33+08:00 ] 127.0.0.1 /thinkphp/Form
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001677s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001944s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003730s ]
+SQL: SHOW COLUMNS FROM `think_form` [ RunTime:0.005656s ]
+SQL: SELECT * FROM `think_form`  [ RunTime:0.002805s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.041023s ]
+INFO: [ view_template ] --END-- [ RunTime:0.006237s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.047434s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043344s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.090941s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.094658s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.097827s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.099243s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009909s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.100916s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001625s ]
+
+[ 2012-11-15T23:46:43+08:00 ] 127.0.0.1 /thinkphp/Form
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002414s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002701s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004259s ]
+SQL: SHOW COLUMNS FROM `think_form` [ RunTime:0.002370s ]
+SQL: SELECT * FROM `think_form`  [ RunTime:0.001398s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.037758s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002470s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.040299s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015678s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.056055s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.057806s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.059305s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.060649s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006107s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.062276s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001483s ]
+
+[ 2012-11-15T23:47:21+08:00 ] 127.0.0.1 /thinkphp/Form
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000977s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001243s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003766s ]
+SQL: SHOW COLUMNS FROM `think_form` [ RunTime:0.005828s ]
+SQL: SELECT * FROM `think_form`  [ RunTime:0.002584s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.037677s ]
+INFO: [ view_template ] --END-- [ RunTime:0.006324s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.044188s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047315s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.091664s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.095462s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.097992s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.099404s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009358s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.101083s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001461s ]
+
+[ 2012-11-15T23:47:33+08:00 ] 127.0.0.1 /thinkphp/Form
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000993s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001264s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001695s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003780s ]
+SQL: SHOW COLUMNS FROM `think_form` [ RunTime:0.005785s ]
+SQL: SELECT * FROM `think_form`  [ RunTime:0.002708s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.039633s ]
+INFO: [ view_template ] --END-- [ RunTime:0.006492s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.046429s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040960s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.087564s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.091465s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.095256s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.098718s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015114s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.102961s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003165s ]
+
+[ 2012-11-15T23:47:45+08:00 ] 127.0.0.1 /thinkphp/Form
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000975s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001242s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001932s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003847s ]
+SQL: SHOW COLUMNS FROM `think_form` [ RunTime:0.005976s ]
+SQL: SELECT * FROM `think_form`  [ RunTime:0.005738s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.040638s ]
+INFO: [ view_template ] --END-- [ RunTime:0.006919s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.047762s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039352s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.087272s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.091325s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.094904s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.098853s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015845s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.103401s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003838s ]
+
+[ 2012-11-15T23:47:54+08:00 ] 127.0.0.1 /thinkphp/Form
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000987s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001257s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004110s ]
+SQL: SHOW COLUMNS FROM `think_form` [ RunTime:0.005407s ]
+SQL: SELECT * FROM `think_form`  [ RunTime:0.003142s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.039559s ]
+INFO: [ view_template ] --END-- [ RunTime:0.006447s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.046186s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044137s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.090481s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.094371s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.098751s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.102175s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015400s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.105997s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001668s ]
+
+[ 2012-11-15T23:48:07+08:00 ] 127.0.0.1 /thinkphp/Form
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000987s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001257s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002088s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004122s ]
+SQL: SHOW COLUMNS FROM `think_form` [ RunTime:0.005822s ]
+SQL: SELECT * FROM `think_form`  [ RunTime:0.003520s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.038686s ]
+INFO: [ view_template ] --END-- [ RunTime:0.006381s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.045242s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044461s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.089864s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.093880s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.097608s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.098960s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010668s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.100593s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001590s ]
+
+[ 2012-11-15T23:54:05+08:00 ] 127.0.0.1 /thinkphp/Form/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002280s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002552s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002187s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003718s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.014206s ]
+INFO: [ view_template ] --END-- [ RunTime:0.004564s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.018918s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.111367s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.130466s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.134376s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.138095s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.141822s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015475s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.146201s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004977s ]
+
+[ 2012-11-15T23:54:09+08:00 ] 127.0.0.1 /thinkphp/index.php/Form/insert
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.008008s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008362s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001949s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004162s ]
+SQL: SHOW COLUMNS FROM `think_form` [ RunTime:0.008351s ]
+SQL: INSERT INTO `think_form` (`title`,`content`) VALUES ('werwer','werwewerwe3r') [ RunTime:0.002696s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.065216s ]
+INFO: [ view_template ] --END-- [ RunTime:0.006709s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.072119s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045627s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.117908s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.122875s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.127425s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.131034s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.017376s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.135563s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003686s ]
+
+[ 2012-11-15T23:54:10+08:00 ] 127.0.0.1 /thinkphp/Form/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001074s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001346s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001949s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003863s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.012822s ]
+INFO: [ view_template ] --END-- [ RunTime:0.006030s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.019039s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034519s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.053724s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.058183s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.062260s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.066047s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.016258s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.070253s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003725s ]
+
+[ 2012-11-15T23:54:13+08:00 ] 127.0.0.1 /thinkphp/Form
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000990s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001264s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001999s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004115s ]
+SQL: SHOW COLUMNS FROM `think_form` [ RunTime:0.005521s ]
+SQL: SELECT * FROM `think_form`  [ RunTime:0.003088s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.040098s ]
+INFO: [ view_template ] --END-- [ RunTime:0.006637s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.046921s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040999s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.088081s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.092075s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.095918s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.099501s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013312s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.101465s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001565s ]
+
+[ 2012-11-15T23:54:39+08:00 ] 127.0.0.1 /thinkphp/Form/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000996s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001309s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001677s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003713s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.013148s ]
+INFO: [ view_template ] --END-- [ RunTime:0.004990s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.018301s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052807s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.071288s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.075419s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.079328s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.082855s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015728s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.087289s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003840s ]
+
+[ 2012-11-15T23:54:40+08:00 ] 127.0.0.1 /thinkphp/index.php/Form/insert
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001012s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001279s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004336s ]
+SQL: SHOW COLUMNS FROM `think_form` [ RunTime:0.005470s ]
+SQL: INSERT INTO `think_form` (`title`,`content`) VALUES ('','werwer') [ RunTime:0.003598s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.046042s ]
+INFO: [ view_template ] --END-- [ RunTime:0.006887s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.053119s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043967s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.097259s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.101330s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.104966s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.107923s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013106s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.110647s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003522s ]
+
+[ 2012-11-15T23:54:41+08:00 ] 127.0.0.1 /thinkphp/Form/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000983s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001253s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005589s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.014190s ]
+INFO: [ view_template ] --END-- [ RunTime:0.006029s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.020418s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035458s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.056052s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.059966s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.068736s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.072155s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.020221s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.076736s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004179s ]
+
+[ 2012-11-15T23:54:45+08:00 ] 127.0.0.1 /thinkphp/Form
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001008s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001301s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001740s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003929s ]
+SQL: SHOW COLUMNS FROM `think_form` [ RunTime:0.005392s ]
+SQL: SELECT * FROM `think_form`  [ RunTime:0.003065s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.038620s ]
+INFO: [ view_template ] --END-- [ RunTime:0.006908s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.045740s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040466s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.086201s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.087779s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.089313s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.090742s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006131s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.092447s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001459s ]
+
+[ 2012-11-15T23:57:22+08:00 ] 127.0.0.1 /thinkphp/Form
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002497s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002771s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002221s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003880s ]
+SQL: SHOW COLUMNS FROM `think_form` [ RunTime:0.005607s ]
+SQL: SELECT * FROM `think_form`  [ RunTime:0.002765s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.065095s ]
+INFO: [ view_template ] --END-- [ RunTime:0.006947s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.072287s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039514s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.111963s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.115860s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.119681s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.123134s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015464s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.127706s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003919s ]
+
+[ 2012-11-15T23:58:05+08:00 ] 127.0.0.1 /thinkphp/Form/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001048s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001322s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004201s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.028862s ]
+INFO: [ view_template ] --END-- [ RunTime:0.005118s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.034060s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036192s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.070427s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.074332s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.077978s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.081659s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015729s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.086448s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003856s ]
+
+[ 2012-11-15T23:58:22+08:00 ] 127.0.0.1 /thinkphp/index.php/Form/insert
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000992s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001268s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004784s ]
+SQL: SHOW COLUMNS FROM `think_form` [ RunTime:0.005822s ]
+SQL: INSERT INTO `think_form` (`title`,`content`,`create_time`) VALUES ('ewrwer','werwerew',1352995102) [ RunTime:0.003663s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.046993s ]
+INFO: [ view_template ] --END-- [ RunTime:0.006881s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.054067s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039188s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.093268s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.094871s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.096444s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.097826s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006153s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.099534s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001486s ]
+
+[ 2012-11-15T23:58:23+08:00 ] 127.0.0.1 /thinkphp/Form/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001102s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001450s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001895s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004388s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.013438s ]
+INFO: [ view_template ] --END-- [ RunTime:0.005674s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.019276s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035969s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.055419s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.060092s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.063847s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.069491s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.018076s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.073772s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004217s ]
+
+[ 2012-11-15T23:58:26+08:00 ] 127.0.0.1 /thinkphp/Form
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000986s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001260s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003707s ]
+SQL: SHOW COLUMNS FROM `think_form` [ RunTime:0.005652s ]
+SQL: SELECT * FROM `think_form`  [ RunTime:0.003451s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.039947s ]
+INFO: [ view_template ] --END-- [ RunTime:0.006492s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: forms D:\APMServ5.2.6\www\htdocs\thinkphp\app\Runtime\Cache\9dbf6c63c28020b24dd673e8a61caa76.php 第 6 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.046628s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040212s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.086848s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.088481s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.089906s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.091349s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006158s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.093180s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001577s ]
+
+[ 2012-11-15T23:58:28+08:00 ] 127.0.0.1 /thinkphp/Form
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000990s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001259s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003759s ]
+SQL: SHOW COLUMNS FROM `think_form` [ RunTime:0.005289s ]
+SQL: SELECT * FROM `think_form`  [ RunTime:0.055210s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.090244s ]
+INFO: [ view_template ] --END-- [ RunTime:0.006519s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: forms D:\APMServ5.2.6\www\htdocs\thinkphp\app\Runtime\Cache\9dbf6c63c28020b24dd673e8a61caa76.php 第 6 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.096952s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039167s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.136286s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.140224s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.143789s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.150121s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.018110s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.154684s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004353s ]
+
+[ 2012-11-15T23:58:45+08:00 ] 127.0.0.1 /thinkphp/Form
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001014s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001287s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003843s ]
+SQL: SHOW COLUMNS FROM `think_form` [ RunTime:0.005317s ]
+SQL: SELECT * FROM `think_form`  [ RunTime:0.002942s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.039437s ]
+INFO: [ view_template ] --END-- [ RunTime:0.006323s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.046134s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041666s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.087764s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.092000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.095945s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.098696s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012566s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.100396s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001547s ]
+

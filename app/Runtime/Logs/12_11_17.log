@@ -1,0 +1,140 @@
+[ 2012-11-17T00:36:52+08:00 ] ERR: (ThinkException) Table 'thinkphp.think_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_user`
+[ 2012-11-17T00:36:53+08:00 ] 127.0.0.1 /thinkphp/Form
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.114698s ]
+INFO: [ route_check ] --END-- [ RunTime:0.115014s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.004655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023208s ]
+SQL: SHOW COLUMNS FROM `think_form` [ RunTime:0.165381s ]
+SQL: SELECT * FROM `think_form`  [ RunTime:0.038350s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.139457s ]
+INFO: [ view_template ] --END-- [ RunTime:0.105718s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-1.245256s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.325049s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.571500s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.648473s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.723438s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.772448s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.247739s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.819268s ]
+INFO: [ view_end ] --END-- [ RunTime:0.054301s ]
+
+[ 2012-11-17T00:37:14+08:00 ] 127.0.0.1 /thinkphp/Form/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001951s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002225s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002241s ]
+SQL: SHOW COLUMNS FROM `think_form` [ RunTime:0.008941s ]
+SQL: SELECT * FROM `think_form` WHERE ( `id` = 1 )  [ RunTime:0.025999s ]
+
+[ 2012-11-17T00:37:27+08:00 ] 127.0.0.1 /thinkphp/Form/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001915s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002186s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002682s ]
+SQL: SHOW COLUMNS FROM `think_form` [ RunTime:0.005737s ]
+SQL: SELECT * FROM `think_form` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.002464s ]
+
+[ 2012-11-17T00:37:58+08:00 ] 127.0.0.1 /thinkphp/Form/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000841s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001115s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001087s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001105s ]
+SQL: SHOW COLUMNS FROM `think_form` [ RunTime:0.005751s ]
+SQL: SELECT * FROM `think_form` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.003224s ]
+
+[ 2012-11-17T00:38:15+08:00 ] 127.0.0.1 /thinkphp/Form/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001933s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002203s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002158s ]
+SQL: SHOW COLUMNS FROM `think_form` [ RunTime:0.006327s ]
+SQL: SELECT * FROM `think_form` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.002241s ]
+
+[ 2012-11-17T00:42:39+08:00 ] 127.0.0.1 /thinkphp/Form/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001979s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002261s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003193s ]
+SQL: SHOW COLUMNS FROM `think_form` [ RunTime:0.005327s ]
+SQL: SELECT * FROM `think_form` WHERE ( `title` = 'test' ) LIMIT 1   [ RunTime:0.002782s ]
+
+[ 2012-11-17T00:42:41+08:00 ] 127.0.0.1 /thinkphp/Form/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000833s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001108s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001091s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002852s ]
+SQL: SHOW COLUMNS FROM `think_form` [ RunTime:0.005291s ]
+SQL: SELECT * FROM `think_form` WHERE ( `title` = 'test' ) LIMIT 1   [ RunTime:0.002407s ]
+
+[ 2012-11-17T00:43:03+08:00 ] 127.0.0.1 /thinkphp/Form/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002163s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002455s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002136s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002198s ]
+SQL: SHOW COLUMNS FROM `think_form` [ RunTime:0.005866s ]
+NOTIC: [8] Undefined offset:  1 D:\APMServ5.2.6\www\htdocs\thinkphp\Lib\Core\Model.class.php 第 249 行.
+SQL: SELECT * FROM `think_form` WHERE ( `title` = 'test' ) LIMIT 1   [ RunTime:0.002332s ]
+
+[ 2012-11-17T00:43:27+08:00 ] 127.0.0.1 /thinkphp/Form/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002042s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002324s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002238s ]
+SQL: SHOW COLUMNS FROM `think_form` [ RunTime:0.005757s ]
+SQL: SELECT `id` FROM `think_form` WHERE ( `title` = 'test' ) LIMIT 1   [ RunTime:0.004088s ]
+
+[ 2012-11-17T00:43:35+08:00 ] 127.0.0.1 /thinkphp/Form/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000904s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001184s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001086s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002749s ]
+SQL: SHOW COLUMNS FROM `think_form` [ RunTime:0.005776s ]
+SQL: SELECT `content` FROM `think_form` WHERE ( `title` = 'test' ) LIMIT 1   [ RunTime:0.002674s ]
+
+[ 2012-11-17T00:48:50+08:00 ] 127.0.0.1 /thinkphp/Form/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001911s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002179s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001974s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002151s ]
+SQL: SHOW COLUMNS FROM `think_form` [ RunTime:0.006017s ]
+SQL: SELECT * FROM `think_form` WHERE create_time=0 ORDER BY id desc  [ RunTime:0.002999s ]
+
+[ 2012-11-17T00:48:52+08:00 ] 127.0.0.1 /thinkphp/Form/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000857s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001134s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001085s ]
+SQL: SHOW COLUMNS FROM `think_form` [ RunTime:0.005361s ]
+SQL: SELECT * FROM `think_form` WHERE create_time=0 ORDER BY id desc  [ RunTime:0.002758s ]
+
+[ 2012-11-17T21:15:00+08:00 ] ERR: (ThinkException) Table 'thinkphp.think_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_user`

@@ -1,0 +1,105 @@
+<include file="public:header" />
+		<div class="ranking_board">
+			<div class="box tips" style="text-align: center;"><h1>Top 100<h1></div>
+			<div class="box">
+				<div class="ranking_list">
+					<foreach name="ranking" item="item">
+					<div class="ranking_item">
+						<div class="sort">{$key+1}</div>
+						<div class="pic">
+							<img src="__IMG__/avatar/{$item.image}">
+						</div>
+						<div class="replies">
+							<div class="header">
+								评论({$item.r_count}):
+								<span class="right">
+									<a class="btnReply" rel="{$item.id}" data-toggle="modal" href="#replyForm">我要评论</a>&nbsp;&nbsp;
+									<a class="btnShow" rel="{$item.id}" data-toggle="modal" href="#showForm">查看更多评论>></a>
+								</span>
+							</div>
+							<foreach name="item['replies']" item="value">
+							<div class="reply">{$value.username} ({$value.addTime|niceDate}): {$value.content}</div>
+							</foreach>
+						</div>
+					</div>
+					</foreach>
+				</div>
+			</div>
+		</div>
+
+<div class="modal hide fade" id="showForm">
+	<div class="modal-header">
+		<a class="close" data-dismiss="modal">x</a>
+		<h3></h3>
+	</div>
+	<div class="modal-body"></div>
+	<div class="modal-footer"></div>
+</div>
+
+<form method="post" action="/ranking/postReply">
+<div class="modal hide fade" id="replyForm">
+	<div class="modal-header">
+		<a class="close" data-dismiss="modal">x</a>
+		<h3>我要评论</h3>
+	</div>
+	<div class="modal-body">
+		<input type="hidden" name="sid" id="sid">
+		<div>昵称:</div>
+		<div><input type="text" name="username" id="username" style="width:45%"></div>
+		<div>内容:</div>
+		<div><textarea name="content" id="content" style="width:98%;height:100px;"></textarea></div>
+	</div>
+	<div class="modal-footer"><input class="btn btn-success" id="replySubmit" value="提交" type="submit"></div>
+</div>
+</form>
+
+<include file="public:footer" />
+<script type="text/javascript">
+$(".btnShow").click(function(){
+	var sid=$(this).attr("rel");
+	
+	$.ajax({
+		type: "POST",
+		url: "/ranking/replies",
+		data: "sid="+sid,
+		dataType: "JSON",
+		beforeSend: function () {
+				$("#showForm .modal-body").html("Loading...");
+		},
+		success: function(data){
+			if(data.code == '1'){
+				alert('get replies error');
+			}
+			else{
+				var replies=data.replies;
+				var count=data.r_count;
+
+				var strHtml="";
+				if(replies!=null){
+					for(i=0;i<replies.length;i++){
+						strHtml+='<div class="reply">'+replies[i].username+' ('+replies[i].addTime+'): '+replies[i].content+'</div>';
+					}
+				}
+
+				$("#showForm .modal-header h3").html("评论("+count+")");
+				$("#showForm .modal-body").html(strHtml);
+			}
+		}
+	});
+});
+
+$(".btnReply").click(function(){
+	var sid=$(this).attr("rel");
+	$("#sid").val(sid);
+
+	$("#content").val('');
+});
+
+$("#replySubmit").click(function(){
+		var username=$.trim($("#username").val());
+		var content=$.trim($("#content").val());
+
+		if(username=='' || content=='')
+			return false;
+});
+</script>

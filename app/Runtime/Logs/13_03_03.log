@@ -1,0 +1,45 @@
+[ 2013-03-03T21:09:58+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.007831s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008168s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.132422s ]
+SQL: select * from list where isShow=1 and id<((select MAX(id) from list)-(select MIN(id) from list))/4 order by rand() limit 2 [ RunTime:0.057515s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.251108s ]
+INFO: [ view_template ] --END-- [ RunTime:0.022901s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.274413s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067037s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.341687s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.343992s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.346312s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.347723s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008388s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.350460s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004497s ]
+
+[ 2013-03-03T21:09:59+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2013-03-03T21:10:28+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001145s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001488s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.001997s ]
+SQL: select * from list where isShow=1 and id<((select MAX(id) from list)-(select MIN(id) from list))/4 order by rand() limit 2 [ RunTime:0.001476s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.022844s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001886s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.025002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029264s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.054511s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.055783s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.057097s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.058312s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005561s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.060445s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001730s ]
+

@@ -1,0 +1,15 @@
+<include file="public:header" />
+		<div class="ranking_board">
+			<div class="box tips">输入你的高考考号后，并按提交按钮即可撤销</div>
+			<div class="box">
+				<if condition="$msg neq ''">
+					{$msg}
+				<else />
+					<form class="form-inline" style="margin-top:18px;" method="post" action="./appeal/doAppeal">
+						高考考号:&nbsp;<input type="text" name="name">
+						&nbsp;<input type="submit" class="btn" value="提交">
+					</form>
+				</if>
+			</div>
+		</div> 
+<include file="public:footer" />

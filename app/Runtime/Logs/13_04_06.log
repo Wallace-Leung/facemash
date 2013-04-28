@@ -1,0 +1,103 @@
+[ 2013-04-06T22:29:07+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.035841s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.036220s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.248434s ]
+SQL: select * from list where isShow=1 and id>((select MAX(id) from list)-(select MIN(id) from list))/2 order by rand() limit 2 [ RunTime:0.053797s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.467112s ]
+INFO: [ view_template ] --END-- [ RunTime:0.037099s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.504545s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.188089s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.692912s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.706437s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.711137s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.713821s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.024245s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.717572s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002805s ]
+
+[ 2013-04-06T22:29:07+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2013-04-06T22:33:18+08:00 ] 127.0.0.1 /ranking
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002167s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002594s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001934s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002099s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.002320s ]
+SQL: SELECT * FROM `list` WHERE gender='F' and isShow=0 ORDER BY score desc LIMIT 100   [ RunTime:0.012854s ]
+SQL: SHOW COLUMNS FROM `reply` [ RunTime:0.021121s ]
+SQL: SELECT * FROM `reply` WHERE sid=35 ORDER BY addTime desc  [ RunTime:0.004583s ]
+SQL: SELECT * FROM `reply` WHERE sid=67 ORDER BY addTime desc  [ RunTime:0.000478s ]
+SQL: SELECT * FROM `reply` WHERE sid=780 ORDER BY addTime desc  [ RunTime:0.000434s ]
+SQL: SELECT * FROM `reply` WHERE sid=361 ORDER BY addTime desc  [ RunTime:0.000425s ]
+SQL: SELECT * FROM `reply` WHERE sid=46 ORDER BY addTime desc  [ RunTime:0.000375s ]
+SQL: SELECT * FROM `reply` WHERE sid=729 ORDER BY addTime desc  [ RunTime:0.000437s ]
+SQL: SELECT * FROM `reply` WHERE sid=704 ORDER BY addTime desc  [ RunTime:0.000426s ]
+SQL: SELECT * FROM `reply` WHERE sid=38 ORDER BY addTime desc  [ RunTime:0.000409s ]
+SQL: SELECT * FROM `reply` WHERE sid=717 ORDER BY addTime desc  [ RunTime:0.000935s ]
+SQL: SELECT * FROM `reply` WHERE sid=61 ORDER BY addTime desc  [ RunTime:0.000344s ]
+SQL: SELECT * FROM `reply` WHERE sid=689 ORDER BY addTime desc  [ RunTime:0.000387s ]
+SQL: SELECT * FROM `reply` WHERE sid=243 ORDER BY addTime desc  [ RunTime:0.000346s ]
+SQL: SELECT * FROM `reply` WHERE sid=404 ORDER BY addTime desc  [ RunTime:0.000328s ]
+SQL: SELECT * FROM `reply` WHERE sid=392 ORDER BY addTime desc  [ RunTime:0.000335s ]
+SQL: SELECT * FROM `reply` WHERE sid=475 ORDER BY addTime desc  [ RunTime:0.000344s ]
+SQL: SELECT * FROM `reply` WHERE sid=720 ORDER BY addTime desc  [ RunTime:0.000364s ]
+SQL: SELECT * FROM `reply` WHERE sid=468 ORDER BY addTime desc  [ RunTime:0.000331s ]
+SQL: SELECT * FROM `reply` WHERE sid=691 ORDER BY addTime desc  [ RunTime:0.000365s ]
+SQL: SELECT * FROM `reply` WHERE sid=513 ORDER BY addTime desc  [ RunTime:0.000400s ]
+SQL: SELECT * FROM `reply` WHERE sid=43 ORDER BY addTime desc  [ RunTime:0.000378s ]
+SQL: SELECT * FROM `reply` WHERE sid=935 ORDER BY addTime desc  [ RunTime:0.000352s ]
+SQL: SELECT * FROM `reply` WHERE sid=471 ORDER BY addTime desc  [ RunTime:0.000342s ]
+SQL: SELECT * FROM `reply` WHERE sid=173 ORDER BY addTime desc  [ RunTime:0.000333s ]
+SQL: SELECT * FROM `reply` WHERE sid=58 ORDER BY addTime desc  [ RunTime:0.000344s ]
+SQL: SELECT * FROM `reply` WHERE sid=37 ORDER BY addTime desc  [ RunTime:0.000332s ]
+SQL: SELECT * FROM `reply` WHERE sid=40 ORDER BY addTime desc  [ RunTime:0.000331s ]
+SQL: SELECT * FROM `reply` WHERE sid=41 ORDER BY addTime desc  [ RunTime:0.000329s ]
+SQL: SELECT * FROM `reply` WHERE sid=29 ORDER BY addTime desc  [ RunTime:0.000350s ]
+SQL: SELECT * FROM `reply` WHERE sid=53 ORDER BY addTime desc  [ RunTime:0.000343s ]
+SQL: SELECT * FROM `reply` WHERE sid=62 ORDER BY addTime desc  [ RunTime:0.000318s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.111159s ]
+INFO: [ view_template ] --END-- [ RunTime:0.016913s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.128427s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040805s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.169472s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.171494s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.172889s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.174289s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007579s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.177517s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002165s ]
+
+[ 2013-04-06T22:33:19+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2013-04-06T22:38:08+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001861s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002216s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.002188s ]
+SQL: select * from list where isShow=1 and id<((select MAX(id) from list)-(select MIN(id) from list))/3 order by rand() limit 2 [ RunTime:0.027945s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.051567s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002343s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.054188s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.119120s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.173565s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.175226s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.176560s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.177876s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006392s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.180325s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001829s ]
+
+[ 2013-04-06T22:38:08+08:00 ] ERR: (ThinkException) 无法加载模块:favicon

@@ -1,0 +1,44 @@
+<include file="public:header" />
+		<div class="ranking_board">
+            <div class="box tips update">
+                FAQ:<br/>
+                Q:提交了，还是出现图片?<br/>
+                A:输入的必须是高考考号，且提交成功后有"恭喜你，已成功撤销你的头像"的提示，才是申诉成功，如果还不行请在下面内容栏输入你的高考考号（请填写正确的邮箱地址，方便联系）
+            </div>
+
+			<div class="box tips">
+				<if condition="$success==true">
+					<span style="color:green;font-weight:bold;">提交成功，感谢你的意见</span>
+				<else />
+					以下2项必填
+                </if>
+			</div>
+			<div class="box">
+				<if condition="$msg neq ''">
+					{$msg}
+				<else />
+					<form class="form-inline" style="margin-top:18px;" method="post" action="/suggest/doSuggest">
+						<table>
+							<tr><td width="100px">邮箱</td><td><input type="text" class="span6" id="name" name="name"></td></tr>
+							<tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+							<tr><td>内容</td><td><textarea class="span6" id="content" name="content" style="height:100px;"></textarea></td></tr>
+							<tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+							<tr><td>&nbsp;</td><td><input type="submit" class="btn" value="提交"></td></tr>
+						</table>
+				</if>
+			</div>
+		</div> 
+<include file="public:footer" />
+<script type="text/javascript">
+$(function(){
+	$(".btn").click(function(){
+		var name=$.trim($("#name").val());
+		var content=$.trim($("#content").val());
+
+		if(name=='' || content=='')
+			return false;
+		else
+			return true;
+	});
+});
+</script>

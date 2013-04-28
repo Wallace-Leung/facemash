@@ -1,0 +1,1 @@
+{"0":"id","1":"sid","2":"username","3":"content","4":"addTime","_autoinc":true,"_pk":"id","_type":{"id":"int(11)","sid":"int(11)","username":"varchar(128)","content":"text","addTime":"int(11)"}}

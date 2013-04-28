@@ -1,0 +1,494 @@
+[ 2013-02-07T11:44:54+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.014027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014368s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.122600s ]
+SQL: select * from list where isShow=1 and id>((select MAX(id) from list)-(select MIN(id) from list))/2 order by rand() limit 2 [ RunTime:0.093222s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.512503s ]
+INFO: [ view_template ] --END-- [ RunTime:0.017291s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.530462s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.115214s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.645837s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.657877s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.662443s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.664409s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.022201s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.668335s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002623s ]
+
+[ 2013-02-07T11:44:55+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2013-02-07T11:44:57+08:00 ] 127.0.0.1 /Index/vote
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001520s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001851s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001399s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001375s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.003631s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.003501s ]
+SQL: SELECT * FROM `list` WHERE ( `id` = 704 ) LIMIT 1   [ RunTime:0.000500s ]
+SQL: SELECT * FROM `list` WHERE ( `id` = 971 ) LIMIT 1   [ RunTime:0.000496s ]
+SQL: SELECT * FROM `list` WHERE ( `id` = 704 ) LIMIT 1   [ RunTime:0.000420s ]
+SQL: UPDATE `list` SET `name`='121901260807',`image`='e9c74cf5c5bd0beb01bc8ab1155266d5.jpg',`score`=1531,`gender`='F',`times`=13,`lockKey`='',`isShow`=1 WHERE ( `id` = 704 ) [ RunTime:0.092405s ]
+SQL: SELECT * FROM `list` WHERE ( `id` = 971 ) LIMIT 1   [ RunTime:0.000844s ]
+SQL: UPDATE `list` SET `name`='121901260076',`image`='12fc3d3aa395f18adfd80b4803b62d3b.jpg',`score`=1390,`gender`='F',`times`=1,`lockKey`='',`isShow`=1 WHERE ( `id` = 971 ) [ RunTime:0.018265s ]
+
+[ 2013-02-07T11:44:57+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001607s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.003564s ]
+SQL: select * from list where isShow=1 and id<((select MAX(id) from list)-(select MIN(id) from list))/6 order by rand() limit 2 [ RunTime:0.021664s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.043508s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001149s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.044915s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019425s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.064562s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.065478s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.066410s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.067134s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003916s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.068848s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001434s ]
+
+[ 2013-02-07T11:44:57+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2013-02-07T11:45:00+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2013-02-07T11:45:01+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2013-02-07T11:45:04+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001385s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.003479s ]
+SQL: select * from list where isShow=1 and id<((select MAX(id) from list)-(select MIN(id) from list))/6 order by rand() limit 2 [ RunTime:0.002020s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.022995s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001298s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.024573s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019785s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.044579s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.045504s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.046456s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.047125s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003833s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.048780s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001372s ]
+
+[ 2013-02-07T11:45:04+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2013-02-07T11:45:06+08:00 ] 127.0.0.1 /Index/vote
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001676s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002071s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001646s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001731s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.003907s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.005213s ]
+SQL: SELECT * FROM `list` WHERE ( `id` = 109 ) LIMIT 1   [ RunTime:0.001473s ]
+SQL: SELECT * FROM `list` WHERE ( `id` = 123 ) LIMIT 1   [ RunTime:0.000472s ]
+SQL: SELECT * FROM `list` WHERE ( `id` = 109 ) LIMIT 1   [ RunTime:0.000343s ]
+SQL: UPDATE `list` SET `name`='121901260209',`image`='df2a5a9cc3144a7c9e75ece3117c20e5.jpg',`score`=1305,`gender`='F',`times`=44,`lockKey`='',`isShow`=1 WHERE ( `id` = 109 ) [ RunTime:0.297608s ]
+SQL: SELECT * FROM `list` WHERE ( `id` = 123 ) LIMIT 1   [ RunTime:0.000521s ]
+SQL: UPDATE `list` SET `name`='121901260223',`image`='3649a3a62ee3c4e08fb6944b740692aa.jpg',`score`=1429,`gender`='F',`times`=53,`lockKey`='',`isShow`=1 WHERE ( `id` = 123 ) [ RunTime:0.017540s ]
+
+[ 2013-02-07T11:45:06+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001097s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001417s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.003557s ]
+SQL: select * from list where isShow=1 and id<((select MAX(id) from list)-(select MIN(id) from list))/5 order by rand() limit 2 [ RunTime:0.003117s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.024054s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001136s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.025476s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019341s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.045039s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.046033s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.047151s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.047781s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004032s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.049450s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001422s ]
+
+[ 2013-02-07T11:45:07+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2013-02-07T11:45:08+08:00 ] 127.0.0.1 /Index/vote
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001514s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001834s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001337s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.003908s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.006018s ]
+SQL: SELECT * FROM `list` WHERE ( `id` = 191 ) LIMIT 1   [ RunTime:0.002377s ]
+SQL: SELECT * FROM `list` WHERE ( `id` = 14 ) LIMIT 1   [ RunTime:0.000397s ]
+SQL: SELECT * FROM `list` WHERE ( `id` = 191 ) LIMIT 1   [ RunTime:0.000368s ]
+SQL: UPDATE `list` SET `name`='121901260292',`image`='1ee1f4a9c2a7ce0a212a46a3a271d834.jpg',`score`=1407,`gender`='F',`times`=57,`lockKey`='',`isShow`=1 WHERE ( `id` = 191 ) [ RunTime:0.031649s ]
+SQL: SELECT * FROM `list` WHERE ( `id` = 14 ) LIMIT 1   [ RunTime:0.000401s ]
+SQL: UPDATE `list` SET `name`='121901260113',`image`='605b0307228e8ca668dee126104363f4.jpg',`score`=1436,`gender`='F',`times`=75,`lockKey`='',`isShow`=1 WHERE ( `id` = 14 ) [ RunTime:0.019465s ]
+
+[ 2013-02-07T11:45:08+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001138s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001474s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.003565s ]
+SQL: select * from list where isShow=1 and id<((select MAX(id) from list)-(select MIN(id) from list))/5 order by rand() limit 2 [ RunTime:0.002366s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.023555s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001208s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.025020s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020149s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.045395s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.046393s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.047408s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.048042s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004154s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.049895s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001571s ]
+
+[ 2013-02-07T11:45:08+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2013-02-07T11:45:10+08:00 ] 127.0.0.1 /Index/vote
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001729s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002081s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001725s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001419s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.004133s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.004163s ]
+SQL: SELECT * FROM `list` WHERE ( `id` = 212 ) LIMIT 1   [ RunTime:0.000599s ]
+SQL: SELECT * FROM `list` WHERE ( `id` = 57 ) LIMIT 1   [ RunTime:0.000426s ]
+SQL: SELECT * FROM `list` WHERE ( `id` = 212 ) LIMIT 1   [ RunTime:0.000337s ]
+SQL: UPDATE `list` SET `name`='121901260313',`image`='8a28c7239f4401af762e5ab4281e16b3.jpg',`score`=1253,`gender`='F',`times`=73,`lockKey`='',`isShow`=1 WHERE ( `id` = 212 ) [ RunTime:0.029827s ]
+SQL: SELECT * FROM `list` WHERE ( `id` = 57 ) LIMIT 1   [ RunTime:0.000410s ]
+SQL: UPDATE `list` SET `name`='121901260156',`image`='2aa772cb72bfc95fa6564e4c512dbd83.jpg',`score`=1357,`gender`='F',`times`=68,`lockKey`='',`isShow`=1 WHERE ( `id` = 57 ) [ RunTime:0.019551s ]
+
+[ 2013-02-07T11:45:10+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001395s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.003437s ]
+SQL: select * from list where isShow=1 and id<((select MAX(id) from list)-(select MIN(id) from list))/6 order by rand() limit 2 [ RunTime:0.002960s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.024014s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001236s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.025509s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021019s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.046761s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.047785s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.048870s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.049565s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004345s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.051470s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001502s ]
+
+[ 2013-02-07T11:45:10+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2013-02-07T11:45:11+08:00 ] 127.0.0.1 /Index/vote
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001686s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002026s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001363s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.003332s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.003908s ]
+SQL: SELECT * FROM `list` WHERE ( `id` = 155 ) LIMIT 1   [ RunTime:0.000701s ]
+SQL: SELECT * FROM `list` WHERE ( `id` = 102 ) LIMIT 1   [ RunTime:0.000422s ]
+SQL: SELECT * FROM `list` WHERE ( `id` = 155 ) LIMIT 1   [ RunTime:0.000422s ]
+SQL: UPDATE `list` SET `name`='121901260256',`image`='bfcdd5d593fd0b2b156f974d3d8ff7c7.jpg',`score`=1476,`gender`='F',`times`=39,`lockKey`='',`isShow`=1 WHERE ( `id` = 155 ) [ RunTime:0.032458s ]
+SQL: SELECT * FROM `list` WHERE ( `id` = 102 ) LIMIT 1   [ RunTime:0.000403s ]
+SQL: UPDATE `list` SET `name`='121901260202',`image`='1f22f3b71ba324bd42704b8ab789754d.jpg',`score`=1429,`gender`='F',`times`=56,`lockKey`='',`isShow`=1 WHERE ( `id` = 102 ) [ RunTime:0.019408s ]
+
+[ 2013-02-07T11:45:11+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001680s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.003606s ]
+SQL: select * from list where isShow=1 and id<((select MAX(id) from list)-(select MIN(id) from list))/3 order by rand() limit 2 [ RunTime:0.002710s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.023993s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001191s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.025430s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019808s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.045474s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.046457s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.047554s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.048240s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004181s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.050115s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001665s ]
+
+[ 2013-02-07T11:45:12+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2013-02-07T11:45:13+08:00 ] 127.0.0.1 /Index/vote
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001517s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001842s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001332s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.003449s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.003712s ]
+SQL: SELECT * FROM `list` WHERE ( `id` = 287 ) LIMIT 1   [ RunTime:0.000507s ]
+SQL: SELECT * FROM `list` WHERE ( `id` = 161 ) LIMIT 1   [ RunTime:0.000385s ]
+SQL: SELECT * FROM `list` WHERE ( `id` = 287 ) LIMIT 1   [ RunTime:0.000321s ]
+SQL: UPDATE `list` SET `name`='121901260388',`image`='aa99838508dc756090718e90d94f2859.jpg',`score`=1335,`gender`='F',`times`=59,`lockKey`='',`isShow`=1 WHERE ( `id` = 287 ) [ RunTime:0.030118s ]
+SQL: SELECT * FROM `list` WHERE ( `id` = 161 ) LIMIT 1   [ RunTime:0.000405s ]
+SQL: UPDATE `list` SET `name`='121901260262',`image`='861bb9a65076575439d15701f0a9bf3c.jpg',`score`=1347,`gender`='F',`times`=42,`lockKey`='',`isShow`=1 WHERE ( `id` = 161 ) [ RunTime:0.020674s ]
+
+[ 2013-02-07T11:45:13+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001393s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.003734s ]
+SQL: select * from list where isShow=1 and id>((select MAX(id) from list)-(select MIN(id) from list))/2 order by rand() limit 2 [ RunTime:0.004681s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.026450s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001252s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.027950s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020110s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.048294s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.049280s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.050293s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.050945s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004072s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.052716s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001502s ]
+
+[ 2013-02-07T11:45:13+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2013-02-07T11:45:15+08:00 ] 127.0.0.1 /Index/vote
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001880s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002246s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001411s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.003635s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.003775s ]
+SQL: SELECT * FROM `list` WHERE ( `id` = 995 ) LIMIT 1   [ RunTime:0.000493s ]
+SQL: SELECT * FROM `list` WHERE ( `id` = 861 ) LIMIT 1   [ RunTime:0.000495s ]
+SQL: SELECT * FROM `list` WHERE ( `id` = 995 ) LIMIT 1   [ RunTime:0.000428s ]
+SQL: UPDATE `list` SET `name`='121901261000',`image`='eec6a0c2d16edb74856d8689bce36386.jpg',`score`=1382,`gender`='F',`times`=2,`lockKey`='e38d07ef3fe61c423827759c97da6cc3',`isShow`=1 WHERE ( `id` = 995 ) [ RunTime:0.078546s ]
+SQL: SELECT * FROM `list` WHERE ( `id` = 861 ) LIMIT 1   [ RunTime:0.001165s ]
+SQL: UPDATE `list` SET `name`='121901260964',`image`='6c5b23746d59e743bcdf9e712835b0ad.jpg',`score`=1596,`gender`='F',`times`=37,`lockKey`='',`isShow`=1 WHERE ( `id` = 861 ) [ RunTime:0.027515s ]
+
+[ 2013-02-07T11:45:15+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001395s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.003549s ]
+SQL: select * from list where isShow=1 and id<((select MAX(id) from list)-(select MIN(id) from list))/6 order by rand() limit 2 [ RunTime:0.002155s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.022726s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001264s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.024241s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019876s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.044350s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.045325s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.046344s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.046987s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004059s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.048744s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001444s ]
+
+[ 2013-02-07T11:45:15+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2013-02-07T11:45:44+08:00 ] 127.0.0.1 /suggest
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001960s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002356s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001672s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001660s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.024087s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001973s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: success D:\APMServ5.2.6\www\facemash\app\Runtime\Cache\da01aa9e9fecc239bffa4227f15be740.php 第 42 行.
+NOTIC: [8] Undefined variable: msg D:\APMServ5.2.6\www\facemash\app\Runtime\Cache\da01aa9e9fecc239bffa4227f15be740.php 第 47 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.026356s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032591s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.059274s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.060585s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.062017s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.062856s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005140s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.064749s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001427s ]
+
+[ 2013-02-07T11:45:44+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2013-02-07T11:45:45+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2013-02-07T15:07:34+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.006767s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007489s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.011538s ]
+SQL: select * from list where isShow=1 and id<((select MAX(id) from list)-(select MIN(id) from list))/6 order by rand() limit 2 [ RunTime:0.002798s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.125467s ]
+INFO: [ view_template ] --END-- [ RunTime:0.020949s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.146648s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.123682s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.270546s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.283576s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.288868s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.294755s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.038258s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.309217s ]
+INFO: [ view_end ] --END-- [ RunTime:0.011868s ]
+
+[ 2013-02-07T19:22:11+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.007059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007407s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.004022s ]
+SQL: select * from list where isShow=1 and id<((select MAX(id) from list)-(select MIN(id) from list))/3 order by rand() limit 2 [ RunTime:0.017925s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.082984s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003675s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.086974s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.112843s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.200127s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.203179s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.244538s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.247925s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.051786s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.252359s ]
+INFO: [ view_end ] --END-- [ RunTime:0.013616s ]
+
+[ 2013-02-07T19:22:11+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2013-02-07T19:22:13+08:00 ] 127.0.0.1 /ranking
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001480s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001809s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001547s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001660s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.003392s ]
+SQL: SELECT * FROM `list` WHERE gender='F' and isShow=0 ORDER BY score desc LIMIT 100   [ RunTime:0.001853s ]
+SQL: SHOW COLUMNS FROM `reply` [ RunTime:0.003431s ]
+SQL: SELECT * FROM `reply` WHERE sid=35 ORDER BY addTime desc  [ RunTime:0.013864s ]
+SQL: SELECT * FROM `reply` WHERE sid=67 ORDER BY addTime desc  [ RunTime:0.000454s ]
+SQL: SELECT * FROM `reply` WHERE sid=780 ORDER BY addTime desc  [ RunTime:0.000370s ]
+SQL: SELECT * FROM `reply` WHERE sid=361 ORDER BY addTime desc  [ RunTime:0.000446s ]
+SQL: SELECT * FROM `reply` WHERE sid=46 ORDER BY addTime desc  [ RunTime:0.000542s ]
+SQL: SELECT * FROM `reply` WHERE sid=729 ORDER BY addTime desc  [ RunTime:0.000436s ]
+SQL: SELECT * FROM `reply` WHERE sid=704 ORDER BY addTime desc  [ RunTime:0.000363s ]
+SQL: SELECT * FROM `reply` WHERE sid=38 ORDER BY addTime desc  [ RunTime:0.000358s ]
+SQL: SELECT * FROM `reply` WHERE sid=717 ORDER BY addTime desc  [ RunTime:0.000356s ]
+SQL: SELECT * FROM `reply` WHERE sid=61 ORDER BY addTime desc  [ RunTime:0.000355s ]
+SQL: SELECT * FROM `reply` WHERE sid=689 ORDER BY addTime desc  [ RunTime:0.000482s ]
+SQL: SELECT * FROM `reply` WHERE sid=243 ORDER BY addTime desc  [ RunTime:0.000546s ]
+SQL: SELECT * FROM `reply` WHERE sid=404 ORDER BY addTime desc  [ RunTime:0.000517s ]
+SQL: SELECT * FROM `reply` WHERE sid=392 ORDER BY addTime desc  [ RunTime:0.000596s ]
+SQL: SELECT * FROM `reply` WHERE sid=475 ORDER BY addTime desc  [ RunTime:0.000481s ]
+SQL: SELECT * FROM `reply` WHERE sid=720 ORDER BY addTime desc  [ RunTime:0.000620s ]
+SQL: SELECT * FROM `reply` WHERE sid=468 ORDER BY addTime desc  [ RunTime:0.000700s ]
+SQL: SELECT * FROM `reply` WHERE sid=691 ORDER BY addTime desc  [ RunTime:0.000564s ]
+SQL: SELECT * FROM `reply` WHERE sid=513 ORDER BY addTime desc  [ RunTime:0.000446s ]
+SQL: SELECT * FROM `reply` WHERE sid=43 ORDER BY addTime desc  [ RunTime:0.000484s ]
+SQL: SELECT * FROM `reply` WHERE sid=935 ORDER BY addTime desc  [ RunTime:0.000786s ]
+SQL: SELECT * FROM `reply` WHERE sid=471 ORDER BY addTime desc  [ RunTime:0.000618s ]
+SQL: SELECT * FROM `reply` WHERE sid=173 ORDER BY addTime desc  [ RunTime:0.000513s ]
+SQL: SELECT * FROM `reply` WHERE sid=58 ORDER BY addTime desc  [ RunTime:0.000483s ]
+SQL: SELECT * FROM `reply` WHERE sid=37 ORDER BY addTime desc  [ RunTime:0.000439s ]
+SQL: SELECT * FROM `reply` WHERE sid=40 ORDER BY addTime desc  [ RunTime:0.000440s ]
+SQL: SELECT * FROM `reply` WHERE sid=41 ORDER BY addTime desc  [ RunTime:0.000514s ]
+SQL: SELECT * FROM `reply` WHERE sid=29 ORDER BY addTime desc  [ RunTime:0.000527s ]
+SQL: SELECT * FROM `reply` WHERE sid=53 ORDER BY addTime desc  [ RunTime:0.000629s ]
+SQL: SELECT * FROM `reply` WHERE sid=62 ORDER BY addTime desc  [ RunTime:0.000622s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.087041s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002913s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.090243s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053706s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.144189s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.145994s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.147611s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.149278s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007796s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.152417s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002118s ]
+
+[ 2013-02-07T19:22:14+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2013-02-07T22:40:30+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.127538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.192141s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.373712s ]
+SQL: select * from list where isShow=1 and id<((select MAX(id) from list)-(select MIN(id) from list))/4 order by rand() limit 2 [ RunTime:0.107490s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-2.186166s ]
+INFO: [ view_template ] --END-- [ RunTime:0.042280s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-2.229166s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.329999s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-2.559774s ]
+INFO: Run TokenBuild Behavior [ RunTime:-2.573469s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-2.578768s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-2.584335s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.031058s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-2.592720s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007865s ]
+
+[ 2013-02-07T22:46:12+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.004461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005380s ]
+SQL: SHOW COLUMNS FROM `list` [ RunTime:0.003357s ]
+SQL: select * from list where isShow=1 and id>((select MAX(id) from list)-(select MIN(id) from list))/2 order by rand() limit 2 [ RunTime:0.004553s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.095113s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002688s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.098067s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.096882s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.195195s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.196710s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.198275s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.199448s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006285s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.201851s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001982s ]
+
